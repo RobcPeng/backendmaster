@@ -1,0 +1,27 @@
+Steps 0:
+- Make sure your node version is correct
+    (nvm use default)
+- Init Yarn (or NPM)
+    - yarn init -yarn
+- create a yarnlock
+    > touch yarn.lock
+- install express - add dev dependencies for TS
+    > yarn add express
+    > yarn add typescript ts-node @types/node @types/express -D
+- create a tsconfig
+    > touch tsconfig.json
+        (EXAMPLE
+        {
+            "compilerOptions": {
+                "target": "ES6",
+                "module": "commonjs",
+                "strict": true,
+                "esModuleInterop": true,
+                "skipLibCheck": true,
+                "forceConsistentCasingInFileNames": true,
+                "outDir": "./dist",
+                "rootDir": "./src"
+            }
+        }
+        )
+

@@ -1,0 +1,18 @@
+Step 0:
+- Create venv
+> python -m venv backend
+- Use venv
+> source myenv/bin/activate
+- install django
+> pip install django
+- install djangorestframework
+-install requests
+- Saving vEnv
+> pip freeze > requirements.txt
+
+
+
+
+SUPER USER DETAILS:
+user peng
+password 1
